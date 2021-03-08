@@ -1,0 +1,310 @@
+By default a real number is treated as a?
+
+A) float
+B) double
+C) long double
+D) far double
+
+B) double
+Category : Declaration
+
+When we mention the prototype of a function?
+
+A) Defining
+B) Declaring
+C) Prototyping
+D) Calling
+
+B) Declaring
+Category : Declaration
+
+Which of the following is the correct usage of conditional operators used in C?
+
+A) a>b ? c=30 : c=40;
+B) a>b ? c=30;
+C) max = a>b ? a>c?a:c:b>c?b:c
+D) return (a>b)?(a:b)
+
+C)max = a>b ? a>c?a:c:b>c?b:c
+Category : Expression
+
+The keyword used to transfer control from a function back to the calling function is
+
+A) switch
+B) goto
+C) go back
+D) return
+
+D) return
+Category : Function
+
+What is (void*)0?
+
+A) Representation of NULL pointer
+B) Representation of void pointer
+C) Error
+D) None of above
+
+A) Representation of NULL pointer
+Category : Pointer
+
+In which header file is the NULL macro defined?
+
+A) stdio.h
+B) stddef.h
+C) stdio.h and stddef.h
+D) math.h
+
+C) stdio.h and stddef.h
+Category : Pointer
+
+If the two strings are identical, then strcmp() function returns
+
+A) -1
+B) 1
+C) 0
+D) Yes
+
+C) 0
+Category : String
+
+The library function used to find the last occurrence of a character in a string is
+
+A) strnstr()
+B) laststr()
+C) strrchr()
+D) strstr()
+
+C) strrchr()
+Category : String
+
+Which of the following function is more appropriate for reading in a multi-word string?
+
+A) printf();
+B) scanf();
+C) gets();
+D) puts();
+
+C)	gets();
+Category : String
+
+In the context of C data types, which of the followings is correct?
+
+A) unsigned long long int is a valid data type.
+B) long long double is a valid data type.
+C) unsigned long double is a valid data type.
+D) A), B) and C) all are valid data types.
+
+A) unsigned long long int is a valid data type.
+Category : Data types
+
+Suppose a C program has floating constant 1.414, what's the best way to convert this as "float" data type?
+
+A) (float)1.414
+B) float(1.414)
+C) 1.414f or 1.414F
+D) 1.414 itself of "float" data type i.e. nothing else required.
+
+C) 1.414f or 1.414F
+Category : Data type
+
+For a given integer, which of the following operators can be used to set and reset a particular bit respectively?
+
+A) | and &
+B) && and ||
+C) & and |
+D) || and &&
+
+A) | and &
+Category : Operator
+
+Which of the following functions from stdio.h can be used in place of printf()?
+
+A) fputs() with FILE stream as stdout.
+B) fprintf() with FILE stream as stdout.
+C) fwrite() with FILE stream as stdout.
+D) All of the above three - a, b and c.
+
+B) fprintf() with FILE stream as stdout.
+Category : File handling
+
+Which of the following statement is correct for switch controlling expression?
+
+A) Only int can be used in switch control expression.
+B) Both int and char can be used in switch control expression.
+C) All types i.e. int, char and float can be used in switch control expression.
+D)switch control expression can be empty as well.
+
+B) Both int and char can be used in switch control expression.
+Category : control statement
+
+Which of the following declaration is not supported by C?
+
+A) String str;
+B) char *str;
+C) float str = 3e2;
+D) Both String str; & float str = 3e2;
+
+A) string str;
+Category : Declaration
+
+The C code for(;;) represents an infinite loop. It can be terminated by 
+
+A) break
+B) exit(0)
+C) abort()
+D) terminate
+
+A) break
+category : Loop statement
+
+What is the built in library function to adjust the allocated dynamic memory size.
+
+A) malloc
+B) calloc
+C) realloc
+D) resize
+
+C) realloc
+category : Memory allocation
+
+Why to use fflush() library function?
+
+A) To flush all streams and specified streams
+B) To flush only specified stream 
+C) To flush input/output buffer
+D) Invalid library function
+
+A) To flush all streams and specified streams
+category : Library Function
+
+calloc() returns a storage that is initialized to. 
+
+A) Zero 
+B) Null 
+C) Nothing 
+D) One
+
+A) Zero
+category : Memory Management
+
+Which one is used during memory deallocation in C? 
+
+A) remove(p); 
+B) delete(p); 
+C) free(p); 
+D) terminate(p);
+
+C) free(p);
+category : Memory Management
+
+calloc initialises memory with all bits set to zero. 
+
+A) true 
+B) false 
+C) Depends on the compiler 
+D) Depends on the standard
+
+A) true
+category : Memory Management
+
+Which of the following are themselves a collection of different data types? 
+
+A) String 
+B) Structure 
+C) Char 
+D) All of the mentioned
+
+B) Structure 
+category : Structure
+
+Which of the following data types are accepted while declaring bit-fields? 
+
+A) char 
+B) float 
+C) double 
+D) None of the mentioned
+
+A) char 
+category : Bit Manipulation
+
+Which of the following is not allowed? 
+
+A) Arrays of bit fields 
+B) Pointers to bit fields 
+C) Functions returning bit fields 
+D) None of the mentioned
+
+D) None of the mentioned
+category : Bit Manipulation
+
+Bit fields can only be declared as part of a structure. 
+
+A) false 
+B) true 
+C) Nothing 
+D) Varies
+
+B) true 
+category : Bit Manipulation
+
+typedef declaration: 
+
+A) Does not create a new type 
+B) It merely adds a new name for some existing type. 
+C) Both a & b 
+D) None of the mentioned
+
+C) Both a & b 
+category : Declaration 
+
+All keywords in C are in? 
+
+A) Lower Case letters 
+B) Upper Case letters 
+C) Camel Case letters 
+D) None
+
+A) Lower Case letters 
+category : Variable 
+
+Which of the following cannot be a variable name in C? 
+
+A) Volatile 
+B) True 
+C) friend 
+D) export
+
+A) Volatile
+category : Variable
+
+Property which allows to produce different executable for different platforms in C is called? 
+
+A) File inclusion 
+B) Selective inclusion 
+C) Conditional compilation 
+D) Recursive macros
+
+C) Conditional compilation 
+category : Preprocessor
+
+Which type conversion is NOT accepted?
+ 
+A) From char to int 
+B) From float to char pointer 
+C) From negative int to char 
+D) From double to char
+
+B) From float to char pointer 
+category : Data Type
+ 
+Which of the following type-casting have chances for wrap around? 
+
+A) From int to float 
+B) From int to char 
+C) From char to short 
+D) From char to int
+
+B) From int to char 
+category : Data Type
+ 
